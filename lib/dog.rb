@@ -1,4 +1,3 @@
-
 class Dog
   attr_accessor :name
   @@all = []
@@ -17,11 +16,5 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-
 end
 
-
-
-# pluto = Dog.new("Pluto")
-# fido = Dog.new("Fido")
-# maddy = Dog.new("Maddy")
