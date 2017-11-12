@@ -13,7 +13,7 @@ class Dog
     @@all.each do |dog|
        binding.pry
        puts dog
-      
+
      end
   end
 
